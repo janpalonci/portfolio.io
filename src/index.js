@@ -4,12 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import Navigation from './components/Navigation';
+import Landing from './components/Landing';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 				<div>
 					<App />
 					<Navigation />
+					<Landing />
 				</div>,
  				document.getElementById('root')
  				);
