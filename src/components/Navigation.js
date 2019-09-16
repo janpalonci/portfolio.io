@@ -4,8 +4,9 @@ import '.././App.css';
 
 const Navigation = () => {
   return ( 
-  	<div>
-	  	<Nav className="justify-content-end" activeKey="/home">
+  	<div className='clearfix'>
+  		<h3 className='float-left pageTitle'>Jan Palonci</h3>
+	  	<Nav className="float-right"  activeKey="/home">
 		    <Nav.Item>
 		      <Nav.Link href="/home">Home</Nav.Link>
 		    </Nav.Item>

@@ -20,7 +20,34 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: black;
+}
+
+/* Navigation */
+
+.pageTitle {
+  margin-left: 10%;
+}
+
+/* Landing Page Below*/ 
+
+.landingWelcome {
+  color: black;
+}
+
+.landingWelcomeText {
+  font-size: 700%;
+  margin-top: 20%;
+  position: absolute;
+}
+
+/* Paralax Effect */
+
+.parallaxImg {
+  margin-top: 30%;
+  margin-left: 110%;
+  z-index: -1;
+  position: relative;
 }
 
 
