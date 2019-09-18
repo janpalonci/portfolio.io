@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import Navigation from './components/Navigation';
 import Landing from './components/Landing';
+import About from './components/About';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -12,6 +13,7 @@ ReactDOM.render(
 					<App />
 					<Navigation />
 					<Landing />
+					<About />
 				</div>,
  				document.getElementById('root')
  				);
